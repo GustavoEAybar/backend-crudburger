@@ -1,0 +1,23 @@
+{
+  "name": "backend-crudburger",
+  "version": "1.0.0",
+  "description": "rest api para una hamburgueseria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GustavoEAybar/backend-crudburger.git"
+  },
+  "keywords": [
+    "rest",
+    "api"
+  ],
+  "author": "Gustavo Exequiel Aybar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GustavoEAybar/backend-crudburger/issues"
+  },
+  "homepage": "https://github.com/GustavoEAybar/backend-crudburger#readme"
+}
