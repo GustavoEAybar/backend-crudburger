@@ -1,5 +1,7 @@
 import { Router } from 'express';
 import productController, { showProducts } from '../controllers/products.controllers';
+import { check } from 'express-validator';
+import productValidate from '../middlewares/productValidations';
 
 //crear la instancia del router
 
@@ -10,7 +12,8 @@ const router = Router();
 router
 .route('/products')
 // .get(productController);
-.get(showProducts);
+.get(showProducts)
+.post([productValidate],createPoducts);
 
 router
 .route('/products/:id')
